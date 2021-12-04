@@ -13,5 +13,6 @@
   "htmlWhitespaceSensitivity": "css",
   "insertPragma": false,
   "quoteProps": "as-needed",
-  "requirePragma": false
+  "requirePragma": false,
+  "bracketSameLine": true
 }
