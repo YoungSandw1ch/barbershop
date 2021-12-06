@@ -13,5 +13,22 @@
     
   }
 }
-.navigation-item {
+
+.navigation__item {
+
+  &:not(:last-child) {
+    margin-right: 24.25px;
+  }
+}
+
+.navigation__link {
+  display: block;
+  padding-top: 52px;
+  padding-bottom: 52px;
+  color: var(--lightFontColor);
+
+  &:focus,
+  &:hover {
+    color: var(--brandColor);
+  }
 }

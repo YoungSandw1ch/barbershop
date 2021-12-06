@@ -1,15 +1,41 @@
 .header {
-
+  position: absolute;
+  top: 0;
+  width: 100%;
+  font-size: 12px;
+  line-height: 1.333;
+  font-weight: 600;
 }
+
 .header__container {
-  display: flex;
+  align-items: center;
+
+  @media screen and (min-width: $mobile) {
+    
+  }
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+  }
+
+  @media screen and (min-width: $desktop) {
+    
+  }
 }
 
 .header__menu {
   display: flex;
-
+  margin-right: 47.5px;
 }
 
 .header__navigation {
-  display: flex;
+  
+}
+
+.header__contacts {
+  align-items: center;
+
+  @media screen and (min-width: $tablet) {
+    margin-left: auto;
+  }
 }

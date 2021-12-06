@@ -1,10 +1,41 @@
 .menu {
 }
+
 .menu__logo {
+
+  @media screen and (min-width: $tablet) {
+    margin-right: 60px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin-right: 69px;
+  }
 }
+
 .menu__button {
   padding: 0;
   background-color: transparent;
+  margin-left: auto;
+  color: #ffffff;
+
+  &:focus,
+  &:hover {
+    color: var(--brandColor);
+  }
+
+  @media screen and (min-width: $mobile) {
+    
+  }
+
+  @media screen and (min-width: $tablet) {
+    display: none;
+  }
+
+  @media screen and (min-width: $desktop) {
+    
+  }
 }
+
 .menu__icon {
+  fill: currentColor;
 }

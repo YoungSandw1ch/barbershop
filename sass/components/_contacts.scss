@@ -7,14 +7,27 @@
 
   @media screen and (min-width: $tablet) {
     display: flex;
+    flex-direction: column;
   }
 
   @media screen and (min-width: $desktop) {
-    
+    flex-direction: row;
   }
 
 }
 .contacts__link {
+  display: block;
+  color: var(--lightFontColor);
+
+  &:focus,
+  &:hover {
+    color: var(--brandColor);
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: 1199.5px) {
+    margin-bottom: 20px;
+  }
 }
+
 .contacts__button {
 }

@@ -1,14 +1,41 @@
 .hero {
-  background-image: url(../img/hero/slider-1.jpg);
+  min-height: 580px;
+  // background-image: url(../img/hero/slider-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(25, 28, 38, 0.2);
 
   @media screen and (min-width: $mobile) {
-    background-image: url(../img/hero/slider-tablet-1.jpg);
+    // background-image: url(../img/hero/slider-tablet-1.jpg);
   }
 
   @media screen and (min-width: $tablet) {
-    background-image: url(../img/hero/slider-desktop-1.jpg);
+    // background-image: url(../img/hero/slider-desktop-1.jpg);
   }
+
+  @media screen and (min-width: $desktop) {
+
+  }
+}
+
+.hero__left {
+  display: none;
+}
+.social {
+}
+.social__item {
+}
+.social__link {
+}
+.hero__right {
+}
+.hero__container {
+}
+.hero__pretitle {
+}
+.pretitle {
+}
+.hero__title {
+}
+.hero__posttitle {
 }

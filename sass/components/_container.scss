@@ -1,10 +1,10 @@
 .container{
   margin: 0 auto;
+  padding-left: 31px;
+  padding-right: 31px;
 
   @media screen and (min-width: $mobile) {
     width: $mobile;
-    padding-left: 31px;
-    padding-right: 31px;
   }
 
   @media screen and (min-width: $tablet) {
