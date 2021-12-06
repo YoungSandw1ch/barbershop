@@ -1,0 +1,14 @@
+.hero {
+  background-image: url(../img/hero/slider-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(25, 28, 38, 0.2);
+
+  @media screen and (min-width: $mobile) {
+    background-image: url(../img/hero/slider-tablet-1.jpg);
+  }
+
+  @media screen and (min-width: $tablet) {
+    background-image: url(../img/hero/slider-desktop-1.jpg);
+  }
+}

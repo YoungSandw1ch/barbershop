@@ -9,6 +9,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+  <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
@@ -16,10 +18,15 @@
     <div class="header__container container">
       <nav class="header__menu menu">
         <a href="#0" class="menu__logo logo">
-          <svg class="logo__icon">
-            <use href=""></use>
+          <svg class="logo__icon" width="66" height="56">
+            <use href="./img/icons.svg#icon-logo"></use>
           </svg>
         </a>
+        <button class="menu__button">
+          <svg class="menu__icon" width="40" height="40">
+            <use href="./img/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
         <ul class="header__navigation navigation">
           <li class="navigation-item">О нас</li>
           <li class="navigation-item">Услуги и цены</li>

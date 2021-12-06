@@ -1,0 +1,20 @@
+.contacts {
+  display: none;
+
+  @media screen and (min-width: $mobile) {
+    
+  }
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+  }
+
+  @media screen and (min-width: $desktop) {
+    
+  }
+
+}
+.contacts__link {
+}
+.contacts__button {
+}
