@@ -22,7 +22,8 @@
             <use href="./img/icons.svg#icon-logo"></use>
           </svg>
         </a>
-        <button class="menu__button" type="button">
+        <button class="menu__button js-open-menu" id="mobile-menu" type="button"
+          aria-label="Кнопка открытия мобильного меню">
           <svg class="menu__icon" width="40" height="40">
             <use href="./img/icons.svg#icon-menu"></use>
           </svg>
@@ -40,9 +41,9 @@
       </div>
     </div>
   </header>
-  <div class="mobile">
+  <div class="mobile js-menu-container">
     <div class="mobile__overlay">
-      <button class="mobile__button" type="button">
+      <button class="mobile__button js-close-menu" type="button" aria-label="Кнопка закрытия мобильного меню">
         <svg class="mobile__icon" width="40" height="40">
           <use href="./img/icons.svg#icon-close"></use>
         </svg>
