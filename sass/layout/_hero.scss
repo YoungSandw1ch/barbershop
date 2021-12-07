@@ -3,7 +3,7 @@
   // background-image: url(../img/hero/slider-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(25, 28, 38, 0.2);
+
 
   @media screen and (min-width: $mobile) {
     // background-image: url(../img/hero/slider-tablet-1.jpg);
@@ -18,19 +18,27 @@
   }
 }
 
-.hero__left {
-  display: none;
-}
-.social {
-}
-.social__item {
-}
-.social__link {
-}
-.hero__right {
-}
 .hero__container {
+  // display: flex;
 }
+
+.hero__left {
+  background-color: #ffffff;
+  width: 114px;
+
+  @media screen and (max-width: 767.5px) {
+    display: none;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 93px;
+  }
+}
+
+.hero__right {
+  background-color: rgba(25, 28, 38, 0.2);
+}
+
 .hero__pretitle {
 }
 .pretitle {
