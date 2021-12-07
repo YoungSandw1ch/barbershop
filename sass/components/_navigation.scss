@@ -1,16 +1,12 @@
 .navigation {
   display: none;
-
-  @media screen and (min-width: $mobile) {
-    
-  }
+  font-size: 12px;
+  line-height: 1.333;
+  font-weight: 600;
+  letter-spacing: 0.1em;
 
   @media screen and (min-width: $tablet) {
     display: flex;
-  }
-
-  @media screen and (min-width: $desktop) {
-    
   }
 }
 

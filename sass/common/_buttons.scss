@@ -1,7 +1,27 @@
 .button {
-  padding: 12px 20px;
+  width: 160px;
+  height: 40px;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 0.09em;
+  font-weight: 600;
+  text-transform: uppercase;
   border: 1px solid #FF6C00;
   border-radius: 25px;
   background-color: transparent;
   color: var(--lightFontColor);
+
+  &:focus,
+  &:hover {
+    background-color: var(--brandColor);
+  }
+}
+
+.button--dark {
+  color: #303030;
+
+  &:focus,
+  &:hover {
+    color: var(--lightFontColor);
+  }
 }

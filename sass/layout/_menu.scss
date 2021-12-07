@@ -23,16 +23,8 @@
     color: var(--brandColor);
   }
 
-  @media screen and (min-width: $mobile) {
-    
-  }
-
   @media screen and (min-width: $tablet) {
     display: none;
-  }
-
-  @media screen and (min-width: $desktop) {
-    
   }
 }
 

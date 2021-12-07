@@ -1,22 +1,23 @@
 .contacts {
   display: none;
 
-  @media screen and (min-width: $mobile) {
-    
-  }
-
-  @media screen and (min-width: $tablet) {
+  @media screen and (min-width: $tablet) and (max-width: 1199.5px) {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   @media screen and (min-width: $desktop) {
-    flex-direction: row;
+    display: flex;
   }
-
 }
+
 .contacts__link {
   display: block;
+  font-size: 12px;
+  line-height: 1.333;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   color: var(--lightFontColor);
 
   &:focus,
@@ -24,10 +25,14 @@
     color: var(--brandColor);
   }
 
-  @media screen and (min-width: $tablet) and (max-width: 1199.5px) {
-    margin-bottom: 20px;
+  @media screen and (min-width: $desktop) {
+    margin-right: 40px;
   }
 }
 
 .contacts__button {
+
+  @media screen and (min-width: $tablet) and (max-width: 1199.5px) {
+    margin-bottom: 20px;
+  }
 }
