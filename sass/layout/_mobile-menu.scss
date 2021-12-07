@@ -1,0 +1,138 @@
+.mobile {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(25, 28, 38, 0.2);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+  z-index: 100;
+  font-weight: 600;
+}
+
+.mobile__overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 75%;
+  height: 100%;
+  padding: 118px 40px;
+  background-color: #ffffff;
+  box-shadow: -4px 0px 8px rgba(0, 0, 0, 0.04), -2px 0px 4px rgba(0, 0, 0, 0.08), -1px 0px 3px rgba(0, 0, 0, 0.16);
+  overflow-y: scroll;
+
+  @media screen and (max-width: 479px) {
+    padding: 50px 20px;
+  }
+}
+
+.mobile__button {
+  position: absolute;
+  top: 48px;
+  right: 31px;
+  color: var(--firstFontColor);
+  background-color: transparent;
+
+  @media screen and (max-width: 479px) {
+    top: 20px;
+    right: 10px;
+  }
+
+  &:focus,
+  &:hover {
+    color: var(--brandColor);
+  }
+}
+
+.mobile__icon {
+  fill: currentColor;
+}
+
+.mobile-nav {
+
+  font-size: 18px;
+  line-height: 1.39;
+  letter-spacing: 0.1em;
+  margin-bottom: 64px;
+
+  @media screen and (max-width: 479px) {
+    margin-bottom: 34px;
+  }
+}
+
+.mobile-nav__item {
+
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+.mobile-nav__link {
+  display: block;
+  color: var(--firstFontColor);
+
+  &:focus,
+  &:hover {
+    color: var(--brandColor);
+  }
+}
+
+.mobile-contacts {
+  margin-bottom: 64px;
+
+  @media screen and (max-width: 479px) {
+    margin-bottom: 34px;
+  }
+}
+.mobile-contacts__link {
+  display: block;
+  font-size: 18px;
+  line-height: 1.39;
+  letter-spacing: 0.1em;
+  margin-bottom: 24px;
+  color: var(--firstFontColor);
+
+  &:focus,
+  &:hover {
+    color: var(--brandColor);
+  }
+}
+
+.mobile-contacts__button {
+  display: block;
+}
+
+.mobile__box {
+  display: flex;
+  align-items: baseline;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 1px;
+    background-color: var(--firstFontColor);
+    margin-right: 40px;
+  }
+}
+
+.mobile-social {
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+
+
+}
+.mobile-social__item {
+
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+.mobile-social__link {
+  color: var(--firstFontColor);
+
+  &:focus,
+  &:hover {
+    color: var(--brandColor);
+  }
+}
