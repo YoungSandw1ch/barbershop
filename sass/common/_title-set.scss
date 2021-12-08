@@ -1,10 +1,21 @@
 .pretitle {
+  display: flex;
+  align-items: center;
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--firstFontColor);
+
+  &::before {
+    content: '';
+    display: block;
+    width: 65px;
+    height: 1px;
+    margin-right: 22px;
+    background-color: currentColor;
+  }
 }
 
 .pretitle--half-transparent {
@@ -58,6 +69,7 @@
 .posttitle {
   font-size: 16px;
   line-height: 1.62;
+  font-weight: normal;
   letter-spacing: 0.02em;
   color: var(--secondFontColor);
 
