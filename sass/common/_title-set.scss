@@ -5,19 +5,20 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--firstFontColor);
-
-  &--half-transparent {
-    color: rgba(157, 164, 189, 0.6);
-  }
-  
-  &--double-height {
-    line-height: 1.91;
-  }
-
-  &--light {
-    color: var(--lightFontColor);
-  }
 }
+
+.pretitle--half-transparent {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.pretitle--double-height {
+  line-height: 1.91;
+}
+
+.pretitle--light {
+  color: var(--lightFontColor);
+}
+
 
 .title {
   font-family: 'Raleway', sans-serif;
@@ -26,25 +27,56 @@
   line-height: 1.166;
   letter-spacing: 0.05em;
   color: var(--firstFontColor);
+}
 
-  &--big-light {
-    color: var(--lightFontColor);
-    font-size: 48px;
-    line-height: 1.178;
-  }
+.title--big-light {
+  color: var(--lightFontColor);
+  font-size: 48px;
+  line-height: 1.178;
 
-  &--light {
-    color: var(--lightFontColor);
-  }
-
-  &--small-dark {
-    font-size: 28px;
+  @media screen and (min-width: $desktop) {
+    font-size: 72px;
+    line-height: 1.18;
   }
 }
+
+.title--small-dark {
+  font-size: 28px;
+
+  @media screen and (min-width: $desktop) {
+    font-size: 42px;
+    line-height: 1.166;
+  }
+}
+
+.title--light {
+  color: var(--lightFontColor);
+}
+
+
 
 .posttitle {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.02em;
+  color: var(--secondFontColor);
+
+  @media screen and (min-width: $desktop) {
+    font-size: 18px;
+    line-height: 1.67;
+  }
+}
+
+.posttitle--grey {
   color: var(--thirdColor);
+
+  @media screen and (min-width: $desktop) {
+    font-size: 18px;
+    line-height: 1.67;
+  }
+}
+
+.posttitle--big {
+  font-size: 18px;
+  line-height: 1.67;
 }
