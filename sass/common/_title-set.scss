@@ -1,0 +1,50 @@
+.pretitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--firstFontColor);
+
+  &--half-transparent {
+    color: rgba(157, 164, 189, 0.6);
+  }
+  
+  &--double-height {
+    line-height: 1.91;
+  }
+
+  &--light {
+    color: var(--lightFontColor);
+  }
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.166;
+  letter-spacing: 0.05em;
+  color: var(--firstFontColor);
+
+  &--big-light {
+    color: var(--lightFontColor);
+    font-size: 48px;
+    line-height: 1.178;
+  }
+
+  &--light {
+    color: var(--lightFontColor);
+  }
+
+  &--small-dark {
+    font-size: 28px;
+  }
+}
+
+.posttitle {
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.02em;
+  color: var(--thirdColor);
+}
