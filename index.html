@@ -117,11 +117,37 @@
         </div>
       </div>
     </section>
-    <!-- <section class="about">
-      <div class="container">
+    <section class="about">
+      <div class="container about__container">
         <ul class="about__list">
-          <li class="about__item"></li>
-          <li class="about__item"></li>
+          <li class="about__item">
+            <picture class="about__picture">
+              <source srcset="./img/about/about-1.webp 1x, ./img/about/about-1@2x.webp 2x" type="image/webp"
+                media="(min-width: 768px)">
+              <source srcset="./img/about/about-1.jpg 1x, ./img/about/about-1@2x.jpg 2x" type="image/jpeg"
+                media="(min-width: 768px)">
+              <source srcset="./img/about/about-desktop-1.webp 1x, ./img/about/about-desktop-1@2x.webp 2x"
+                type="image/webp" media="(min-width: 1200px)">
+              <source srcset="./img/about/about-desktop-1.jpg 1x, ./img/about/about-desktop-1@2x.jpg 2x"
+                type="image/jpeg" media="(min-width: 1200px)">
+              <img srcset="./img/about/about-desktop-1.jpg 270w" sizes="(min-width: 1200px) 270w"
+                src="./img/about/about-1.jpg" alt="бритье бороды" width="330" height="235">
+            </picture>
+          </li>
+          <li class="about__item">
+            <picture class="about__picture">
+              <source srcset="./img/about/about-2.webp 1x, ./img/about/about-2@2x.webp 2x" type="image/webp"
+                media="(min-width: 768px)">
+              <source srcset="./img/about/about-2.jpg 1x, ./img/about/about-2@2x.jpg 2x" type="image/jpeg"
+                media="(min-width: 768px)">
+              <source srcset="./img/about/about-desktop-2.webp 1x, ./img/about/about-desktop-2@2x.webp 2x"
+                type="image/webp" media="(min-width: 1200px)">
+              <source srcset="./img/about/about-desktop-2.jpg 1x, ./img/about/about-desktop-2@2x.jpg 2x"
+                type="image/jpeg" media="(min-width: 1200px)">
+              <img srcset="./img/about/about-desktop-2.jpg 270w" sizes="(min-width: 1200px) 270w"
+                src="./img/about/about-2.jpg" alt="работа опасной бритвой" width="330" height="235">
+            </picture>
+          </li>
         </ul>
         <div class="about__box">
           <p class="about__pretitle pretitle">О НАС</p>
@@ -132,11 +158,11 @@
           <p class="about__text">Мы команда, которая никогда не останавливается на достигнутом и жаждет перемен. И когда
             ты попадешь в руки нашего мастера, то уже никогда не сможешь быть прежним. Мы команда, которая всегда с
             клиентами "на одной волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
-          <button class="button" type="button"></button>
+          <button class="about__button button button--dark" type="button">онлайн-запись</button>
         </div>
       </div>
     </section>
-    <section class="prices">
+    <!-- <section class="prices">
       <div class="container">
         <p class="prices__pretitle pretitle">Проведи время в компании лучших мастеров</p>
         <h2 class="prices__title title">Услуги и цены</h2>
@@ -144,33 +170,33 @@
           ul
         </div>
       </div>
-    </section>
+    </section> -->
   </main>
   <footer class="footer">
 
-  </footer> -->
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </footer>
+  <!-- ===================Swiper=============== JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        cssMode: true,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        pagination: {
-          el: ".swiper-pagination",
-        },
-        mousewheel: true,
-        keyboard: true,
-      });
-    </script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous"></script>
-    <script defer src="./js/mobile-menu.js"></script>
+  <!-- ===============Initialize Swiper=========== -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      cssMode: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      mousewheel: true,
+      keyboard: true,
+    });
+  </script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+  <script defer src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
