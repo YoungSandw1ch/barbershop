@@ -15,6 +15,7 @@
 
 .hero__container {
   display: flex;
+  // align-items: flex-end;
 
   @media screen and (max-width: 767.5px) {
     padding-left: 0;
@@ -25,6 +26,8 @@
 .hero__left {
   background-color: #ffffff;
   width: 114px;
+  padding-left: 35px;
+  padding-bottom: 40px;
 
   @media screen and (max-width: 767.5px) {
     display: none;
@@ -37,7 +40,6 @@
 
 .hero__right {
   min-width: 0;
-  
 
   @media screen and (min-width: $tablet) {
     width: 576px;
@@ -47,8 +49,6 @@
     width: 1076px;
   }
 }
-
-
 
 // .hero__pretitle {
 // }

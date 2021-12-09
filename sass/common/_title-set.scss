@@ -54,11 +54,10 @@
 }
 
 .title--small-dark {
-  font-size: 28px;
 
-  @media screen and (min-width: $desktop) {
-    font-size: 42px;
-    line-height: 1.166;
+  @media screen and (min-width: $tablet) and (max-width: 1199.5px) {
+    font-size: 28px;
+    line-height: 1.178;
   }
 }
 
