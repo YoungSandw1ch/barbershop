@@ -15,7 +15,6 @@
 
 .hero__container {
   display: flex;
-  // align-items: flex-end;
 
   @media screen and (max-width: 767.5px) {
     padding-left: 0;
@@ -26,7 +25,9 @@
 .hero__left {
   background-color: #ffffff;
   width: 114px;
-  padding-left: 35px;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 25px;
   padding-bottom: 40px;
 
   @media screen and (max-width: 767.5px) {

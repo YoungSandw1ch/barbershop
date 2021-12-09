@@ -1,18 +1,17 @@
 .social {
   display: flex;
   align-items: center;
-  justify-content: start;
+  // justify-content: start;
 
   
   transform: rotate(-90deg);
-  // transform-origin: left;
+  transform-origin: top left;
 
   &::before {
     content: '';
     display: block;
     width: 60px;
     height: 1px;
-    padding-left: 80px;
     margin-right: 40px;
     background-color: var(--firstFontColor);
   }
