@@ -41,6 +41,19 @@
 }
 
 .services__text {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  white-space: nowrap;
+  
+  
+
+  &::after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    background-color: rgba(157, 164, 189, 0.12);
+  }
 }
 
 .services__value {
