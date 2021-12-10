@@ -1,9 +1,36 @@
 .services {
-  font-size: 18px;
-  line-height: 1.67;
+  font-size: 14px;
+  line-height: 2.14;
   letter-spacing: 0.02em;
   color: var(--thirdColor);
+
+  @media screen and (min-width: $tablet) {
+    font-size: 18px;
+    line-height: 1.67;
+  }
+
+  @media screen and (min-width: $desktop) {
+    flex-basis: 50%;
+    padding: 30px 40px;
+  }
 }
+
+.services:first-child {
+  @media screen and (max-width: 1199.5px) {
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
+  }
+}
+
+.services:last-child {
+  @media screen and (min-width: $desktop) {
+    background: linear-gradient(180deg, #090B13 0%, rgba(9, 11, 19, 0.2) 100%);
+  }
+}
+
 .services__item {
   display: flex;
   justify-content: space-between;
@@ -12,7 +39,9 @@
     margin-bottom: 20px;
   }
 }
+
 .services__text {
 }
+
 .services__value {
 }
