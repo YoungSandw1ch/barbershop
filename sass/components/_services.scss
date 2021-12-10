@@ -1,0 +1,18 @@
+.services {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--thirdColor);
+}
+.services__item {
+  display: flex;
+  justify-content: space-between;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+.services__text {
+}
+.services__value {
+}

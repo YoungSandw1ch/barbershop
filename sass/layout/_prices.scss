@@ -1,0 +1,42 @@
+.prices {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  background-color: #ececec;
+
+  @media screen and (min-width: $tablet) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+}
+
+.prices__pretitle {
+  margin-bottom: 44px;
+}
+.pretitle {
+}
+
+.prices__title {
+}
+
+.prices__box {
+  padding: 30px 30px;
+  margin-bottom: 50px;
+
+  @media screen and (min-width: $desktop) {
+    padding: 30px 40px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    display: flex;
+  }
+}
+
+.prices__button {
+  display: block;
+  margin: 0 auto;
+}

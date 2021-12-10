@@ -24,7 +24,6 @@
     display: none;
   }
 
-  
   @media screen and (min-width: $tablet) {
     flex-basis: calc((100% - 30px) / 2);
     margin-right: 30px;
@@ -56,9 +55,6 @@
   }
 }
 
-.about__picture{
-
-}
 .about__box {
 
   @media screen and (min-width: $tablet) {
@@ -69,6 +65,7 @@
     flex-basis: calc((100% - 64px) / 2);
   }
 }
+
 .about__pretitle {
 }
 
@@ -93,5 +90,6 @@
     max-width: 480px;
   }
 }
+
 .about__button {
 }
