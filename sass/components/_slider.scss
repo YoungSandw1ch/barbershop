@@ -4,8 +4,8 @@
 .slider__item {
   display: flex;
   align-items: center;
-  padding-left: 31px;
-  padding-right: 31px;
+  padding-left: 10px;
+  padding-right: 10px;
   min-height: 580px;
   width: 480px;
   background-color: rgba(25, 28, 38, 0.2);
@@ -17,6 +17,11 @@
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
     background-image: url(../img/hero/slider-1@x2.jpg);
+  }
+
+  @media screen and (min-width: 360px) {
+    padding-left: 31px;
+    padding-right: 31px;
   }
 
   @media screen and (min-width: $tablet) {

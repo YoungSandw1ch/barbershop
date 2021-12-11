@@ -48,6 +48,10 @@
   padding: 30px 30px;
   margin-bottom: 50px;
 
+  @media screen and (max-width: 320px) {
+    padding: 15px;
+  }
+
   @media screen and (min-width: $tablet) {
     padding: 30px 40px;
   }

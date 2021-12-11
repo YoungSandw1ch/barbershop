@@ -34,6 +34,21 @@
 .services__item {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+
+  &::after {
+    content: '';
+    height: 1px;
+    flex-grow: 1;
+    order: 2;
+    margin-left: 6px;
+    margin-right: 6px;
+    background-color: rgba(157, 164, 189, 0.12);
+
+    @media screen and (max-width: 320px) {
+      display: none;
+    }
+  }
 
   &:not(:last-child) {
     margin-bottom: 20px;
@@ -42,19 +57,9 @@
 
 .services__text {
   display: flex;
-  align-items: center;
-  flex-grow: 1;
-  white-space: nowrap;
-  
-  
-
-  &::after {
-    content: '';
-    height: 1px;
-    width: 100%;
-    background-color: rgba(157, 164, 189, 0.12);
-  }
+  order: 1;
 }
 
 .services__value {
+  order: 3;
 }
