@@ -6,7 +6,7 @@
 //=====header
 @import "./layout/header";
 @import "./components/container";
-@import "./layout/menu";
+@import "./components/menu";
 @import "./components/logo";
 @import "./components/navigation";
 @import "./components/contacts";
@@ -15,11 +15,12 @@
 @import "./layout/mobile-menu";
 //=====hero
 @import "./layout/hero";
-@import "./common/social";
+@import "./common/media";
 @import "./components/swiper";
 @import "./components/slider";
 @import "./common/title-set";
 //=====about
+@import "./common/section";
 @import "./layout/about";
 //=====prices
 @import "./layout/prices";
@@ -27,5 +28,8 @@
 //=====benefits
 @import "./layout/benefits";
 @import "./components/achievements";
+//=====team
+@import "./layout/team";
+@import "./components/social";
 
 

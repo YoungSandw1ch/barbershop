@@ -1,4 +1,4 @@
-.social {
+.media {
   display: flex;
   align-items: center;
   // justify-content: start;
@@ -17,14 +17,14 @@
   }
 }
 
-.social__item {
+.media__item {
 
   &:not(:last-child) {
     margin-right: 40px;
   }
 }
 
-.social__link {
+.media__link {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
