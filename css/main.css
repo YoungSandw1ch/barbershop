@@ -1293,6 +1293,7 @@ body {
         -ms-flex-pack: end;
             justify-content: flex-end;
     margin-right: 130px;
+    margin-top: -9px;
   }
 }
 
