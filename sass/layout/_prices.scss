@@ -37,6 +37,14 @@
   }
 }
 
+.prices__container {
+
+  @media screen and (max-width: $mobile) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
 .prices__pretitle {
 }
 
@@ -48,8 +56,10 @@
   padding: 30px 30px;
   margin-bottom: 50px;
 
-  @media screen and (max-width: 320px) {
-    padding: 15px;
+  @media screen and (max-width: 360px) {
+    padding: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
   }
 
   @media screen and (min-width: $tablet) {
