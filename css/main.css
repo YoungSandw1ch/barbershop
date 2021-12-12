@@ -839,7 +839,6 @@ body {
   line-height: 1.36;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--firstFontColor);
   margin-bottom: 20px;
 }
 
@@ -870,7 +869,6 @@ body {
   font-size: 42px;
   line-height: 1.166;
   letter-spacing: 0.05em;
-  color: var(--firstFontColor);
   margin-bottom: 20px;
 }
 
@@ -1334,7 +1332,22 @@ body {
 }
 
 .team {
+  letter-spacing: 0.02em;
   background-color: #F7F7F7;
+}
+
+.team__title {
+  margin-bottom: 44px;
+}
+
+.team__heading {
+  line-height: 1.39;
+}
+
+.team__text {
+  font-size: 14px;
+  line-height: 1.36;
+  color: var(--brandColor);
 }
 
 .social {

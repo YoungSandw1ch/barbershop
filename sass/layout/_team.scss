@@ -1,8 +1,10 @@
 .team {
+  letter-spacing: 0.02em;
   background-color: #F7F7F7;
 }
 
 .team__title {
+  margin-bottom: 44px;
 }
 
 .team__wrapper {
@@ -15,5 +17,13 @@
 }
 .team__box {
 }
+
+.team__heading {
+  line-height: 1.39;
+}
+
 .team__text {
+  font-size: 14px;
+  line-height: 1.36;
+  color: var(--brandColor);
 }
