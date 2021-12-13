@@ -104,16 +104,10 @@ body {
 }
 
 .container {
+  width: 100%;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-@media screen and (min-width: 400px) {
-  .container {
-    padding-left: 31px;
-    padding-right: 31px;
-  }
 }
 
 @media screen and (min-width: 480px) {
@@ -124,17 +118,13 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
-    padding-left: 39px;
-    padding-right: 39px;
+    width: 720px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
