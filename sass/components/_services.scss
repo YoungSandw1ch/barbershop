@@ -1,8 +1,13 @@
 .services {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 2.14;
   letter-spacing: 0.02em;
   color: var(--thirdColor);
+
+  @media screen and (min-width: $mobile) {
+    font-size: 14px;
+    line-height: 2.14;
+  }
 
   @media screen and (min-width: $tablet) {
     font-size: 18px;
@@ -36,6 +41,10 @@
   justify-content: space-between;
   align-items: baseline;
 
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
   &::after {
     content: '';
     height: 1px;
@@ -44,14 +53,6 @@
     margin-left: 6px;
     margin-right: 6px;
     background-color: rgba(157, 164, 189, 0.12);
-
-    @media screen and (max-width: 320px) {
-      display: none;
-    }
-  }
-
-  &:not(:last-child) {
-    margin-bottom: 20px;
   }
 }
 

@@ -31,21 +31,16 @@
   }
 }
 
-.prices__pretitle {
-}
-
 .prices__title {
   margin-bottom: 44px;
 }
 
 .prices__box {
-  padding: 30px 30px;
+  padding: 10px;
   margin-bottom: 50px;
 
-  @media screen and (max-width: 360px) {
-    padding: 10px;
-    margin-left: -10px;
-    margin-right: -10px;
+  @media screen and (min-width: $mobile) {
+    padding: 30px 30px;
   }
 
   @media screen and (min-width: $tablet) {
