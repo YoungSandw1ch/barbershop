@@ -3,23 +3,47 @@
   background-color: #F7F7F7;
 }
 
+.team__container {
+  @media screen and (min-width: $tablet) and (max-width: 1199.5px) {
+    width: 450px;
+  }
+}
+
 .team__title {
   margin-bottom: 44px;
 }
 
-.team__wrapper {
-}
 .team__list {
+margin-bottom: -44px;
+
+  @media screen and (min-width: $desktop) {
+    display: flex;
+    margin: -15px;
+  }
 }
+
 .team__item {
+  padding-bottom: 20px;
+  margin-bottom: 44px;
+
+  @media screen and (min-width: $desktop) {
+    flex-basis: calc(100% / 3 - 30px);
+    margin: 15px;
+  }
 }
+
 .team__img {
+  width: 100%;
 }
+
 .team__box {
+  padding: 30px 10px;
+  text-align: center;
 }
 
 .team__heading {
   line-height: 1.39;
+  margin-bottom: 8px;
 }
 
 .team__text {
