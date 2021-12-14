@@ -1423,4 +1423,50 @@ body {
 .social__icon {
   fill: currentColor;
 }
+
+.portfolio__pretitle {
+  margin-bottom: 44px;
+}
+
+@media screen and (max-width: 767.5px) {
+  .portfolio__pretitle {
+    line-height: 1.91;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+
+@media screen and (max-width: 767.5px) {
+  .portfolio__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio__item {
+    -ms-flex-preferred-size: calc(100% / 2 - 30px);
+        flex-basis: calc(100% / 2 - 30px);
+    margin: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio__item {
+    -ms-flex-preferred-size: calc(100% / 4 - 30px);
+        flex-basis: calc(100% / 4 - 30px);
+  }
+}
+
+.portfolio__img {
+  width: 100%;
+}
 /*# sourceMappingURL=main.css.map */
