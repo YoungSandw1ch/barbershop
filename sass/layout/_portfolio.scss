@@ -10,7 +10,6 @@
 }
 
 .portfolio__list {
-
   @media screen and (min-width: $tablet) {
     display: flex;
     flex-wrap: wrap;
@@ -25,7 +24,6 @@
       margin-bottom: 30px;
     }
   }
-
 
   @media screen and (min-width: $tablet) {
     flex-basis: calc(100% / 2 - 30px);

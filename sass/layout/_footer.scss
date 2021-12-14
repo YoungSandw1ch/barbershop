@@ -1,0 +1,45 @@
+.footer {
+}
+
+.footer__section {
+  background-color: #191C26;
+}
+
+.footer__section:last-child {
+  background-image: url(../img/footer/footer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+    background-image: url(../img/footer/footer@2x.png);
+  }
+
+  @media screen and (min-width: $tablet) {
+    background-image: url(../img/footer/footer-tab.png);
+
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+      background-image: url(../img/footer/footer-tab@2x.png);
+    }
+  }
+
+  @media screen and (min-width: $desktop) {
+    background-image: url(../img/footer/footer-desk.png);
+
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+      background-image: url(../img/footer/footer-desk@2x.png);
+    }
+  }
+
+}
+.footer__title {
+}
+
+.footer__text {
+}
