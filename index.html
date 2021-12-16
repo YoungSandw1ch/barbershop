@@ -489,15 +489,16 @@
             <input type="text" class="form__input" name="имя" placeholder="Имя*">
             <input type="tel" class="form__input" name="телефон" placeholder="Телефон*">
           </div>
-          <textarea name="comment" id="comment" placeholder="сообщение"></textarea>
-          <button class="button" type="submit">отправить</button>
+          <textarea class="form__input form__input--textarea" name="comment" id="comment"
+            placeholder="сообщение"></textarea>
+          <button class="form__button button" type="submit">отправить</button>
         </form>
       </div>
     </section>
     <section class="section footer__section">
       <div class="container">
         <p class="footer__title title title--light">Контакты</p>
-        <ul class="footer-contacts">
+        <ul class="footer-contacts footer-contacts--bottom-indent">
           <li class="footer-contacts__item">
             <a class="footer-contacts__link" href="">
               <svg class="footer-contacts__icon" width="24" height="24">
@@ -515,7 +516,7 @@
             </a>
           </li>
           <li class="footer-contacts__item">
-            <a class="footer-contacts__link" href="mailto:barbershop@email.com">
+            <a class="footer-contacts__link footer-contacts__link--underline" href="mailto:barbershop@email.com">
               <svg class="footer-contacts__icon" width="24" height="24">
                 <use href="./img/icons.svg#icon-mail"></use>
               </svg>

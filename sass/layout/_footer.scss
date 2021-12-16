@@ -5,7 +5,7 @@
   background-color: #191C26;
 }
 
-.footer__section:last-child {
+.footer__section:nth-child(2) {
   background-image: url(../img/footer/footer.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -38,7 +38,14 @@
   }
 
 }
+
 .footer__title {
+  text-align: center;
+  margin-bottom: 44px;
+
+  @media screen and (min-width: $tablet) {
+    text-align: left;
+  }
 }
 
 .footer__text {
