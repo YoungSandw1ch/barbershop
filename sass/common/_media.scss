@@ -1,7 +1,10 @@
 .media {
   display: flex;
   align-items: center;
-  // justify-content: start;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
 
   &::before {
     content: '';
@@ -26,10 +29,6 @@
 }
 
 .media__link {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.2em;
   color: var(--firstFontColor);
 
   &:focus,
