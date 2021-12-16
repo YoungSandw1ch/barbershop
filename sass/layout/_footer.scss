@@ -48,5 +48,21 @@
   }
 }
 
+.footer__thumb {
+  
+  @media screen and (min-width: $tablet) {
+    display: flex;
+  }
+}
+
+.footer__shedule {
+
+
+}
+
 .footer__text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--thirdColor);
 }

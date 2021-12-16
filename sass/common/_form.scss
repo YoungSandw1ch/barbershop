@@ -2,6 +2,10 @@
 }
 
 .form__box {
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+  }
 }
 
 .form__input {
@@ -33,6 +37,13 @@
   }
 }
 
+.form__input:nth-child(1) {
+
+  @media screen and (min-width: $tablet) {
+    margin-right: 30px;
+  }
+}
+
 .form__input--textarea {
   resize: none;
   height: 75px;
@@ -40,6 +51,9 @@
 
 .form__button {
   display: block;
-  margin: 0 auto;
   outline: transparent;
+
+  @media screen and (max-width: 767.5px) {
+    margin: 0 auto;
+  }
 }
