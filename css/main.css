@@ -1528,7 +1528,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .online__container {
-    width: 625px;
+    width: calc((1200px - 30px) / 2);
     padding-left: 56px;
     padding-right: 0;
     margin: 0;
@@ -1711,7 +1711,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .contacts__container {
-    width: 625px;
+    width: calc((1200px - 30px) / 2);
     padding-left: 100px;
     margin: 0;
   }
