@@ -64,6 +64,90 @@ body {
   overflow: hidden;
 }
 
+.popup__bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 150;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.popup__bg.active {
+  opacity: 1;
+  pointer-events: all;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  background: #191C26;
+  padding: 50px 25px;
+  border-radius: 10px;
+  border: 1px solid var(--brandColor);
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  width: 90%;
+}
+
+@media screen and (min-width: 480px) {
+  .popup {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .popup {
+    width: 560px;
+  }
+}
+
+.popup.active {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.popup__button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--brandColor);
+  background-color: transparent;
+  border-radius: 50%;
+  color: #ffffff;
+}
+
+.popup__button:focus, .popup__button:hover {
+  color: var(--brandColor);
+}
+
+.popup__icon {
+  fill: currentColor;
+}
+
 .header {
   position: absolute;
   top: 0;
@@ -287,6 +371,11 @@ body {
   background-color: var(--brandColor);
 }
 
+.button--center {
+  display: block;
+  margin: 0 auto;
+}
+
 .button--dark {
   color: #303030;
   -webkit-transition: color 250ms linear;
@@ -483,7 +572,6 @@ body {
 
 @media screen and (max-width: 767.5px) {
   .hero__container {
-    width: 480px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -902,6 +990,18 @@ body {
 
 .title--light {
   color: var(--lightFontColor);
+}
+
+.title--popup {
+  color: var(--lightFontColor);
+  text-align: center;
+  font-size: 32px;
+}
+
+@media screen and (max-width: 480px) {
+  .title--popup {
+    font-size: 28px;
+  }
 }
 
 .posttitle {

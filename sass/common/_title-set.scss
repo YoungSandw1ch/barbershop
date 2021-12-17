@@ -64,6 +64,17 @@
 }
 
 
+.title--popup {
+  color: var(--lightFontColor);
+  text-align: center;
+  font-size: 32px;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 28px;
+  }
+}
+
+
 
 .posttitle {
   font-size: 16px;

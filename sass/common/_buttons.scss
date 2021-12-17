@@ -18,6 +18,11 @@
   }
 }
 
+.button--center {
+  display: block;
+  margin: 0 auto;
+}
+
 .button--dark {
   color: #303030;
   transition: color 250ms linear;
