@@ -1,9 +1,3 @@
-html,
-body {
-  position: relative;
-  height: 100%;
-}
-
 .swiper {
   width: 100%;
   height: 100%;
@@ -56,16 +50,3 @@ display: none;
 .swiper-button-prev:after {
 display: none;
 }
-
-// .slider__button {
-//   position: absolute;
-//   bottom: 34px;
-// }
-
-// .slider__button--next {
-//   right: 37px;
-// }
-
-// .slider__button--prev {
-//   right: 118px;
-// }

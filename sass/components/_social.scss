@@ -19,6 +19,7 @@
   color: var(--firstFontColor);
   background-color: #ffffff;
   border-radius: 50%;
+  transition: color 250ms linear;
 
   &:focus,
   &:hover {

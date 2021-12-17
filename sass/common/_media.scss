@@ -30,6 +30,7 @@
 
 .media__link {
   color: var(--firstFontColor);
+  transition: color 250ms linear;
 
   &:focus,
   &:hover {

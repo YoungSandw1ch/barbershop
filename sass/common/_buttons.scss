@@ -10,6 +10,7 @@
   border-radius: 25px;
   background-color: transparent;
   color: var(--lightFontColor);
+  transition: background-color 250ms linear;
 
   &:focus,
   &:hover {
@@ -19,6 +20,7 @@
 
 .button--dark {
   color: #303030;
+  transition: color 250ms linear;
 
   &:focus,
   &:hover {

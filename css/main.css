@@ -112,7 +112,7 @@ body {
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 446px;
+    width: 448px;
   }
 }
 
@@ -146,6 +146,8 @@ body {
   background-color: transparent;
   margin-left: auto;
   color: #ffffff;
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 .menu__button:focus, .menu__button:hover {
@@ -205,6 +207,8 @@ body {
   padding-top: 52px;
   padding-bottom: 52px;
   color: var(--lightFontColor);
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 .navigation__link:focus, .navigation__link:hover {
@@ -243,6 +247,8 @@ body {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--lightFontColor);
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 .appointment__link:focus, .appointment__link:hover {
@@ -273,6 +279,8 @@ body {
   border-radius: 25px;
   background-color: transparent;
   color: var(--lightFontColor);
+  -webkit-transition: background-color 250ms linear;
+  transition: background-color 250ms linear;
 }
 
 .button:focus, .button:hover {
@@ -281,6 +289,8 @@ body {
 
 .button--dark {
   color: #303030;
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 .button--dark:focus, .button--dark:hover {
@@ -546,16 +556,12 @@ body {
 
 .media__link {
   color: var(--firstFontColor);
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 .media__link:focus, .media__link:hover {
   color: var(--brandColor);
-}
-
-html,
-body {
-  position: relative;
-  height: 100%;
 }
 
 .swiper {
@@ -1417,6 +1423,8 @@ body {
   color: var(--firstFontColor);
   background-color: #ffffff;
   border-radius: 50%;
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 .social__link:focus, .social__link:hover {
@@ -1507,25 +1515,6 @@ body {
   }
 }
 
-.online__container {
-  width: 100%;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-@media screen and (min-width: 480px) {
-  .online__container {
-    width: 446px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .online__container {
-    width: 720px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .online__container {
     width: calc((1200px - 30px) / 2);
@@ -1564,6 +1553,8 @@ body {
   border-bottom: 1px solid rgba(157, 164, 189, 0.4);
   color: #ffffff;
   outline: transparent;
+  -webkit-transition: border-color 250ms linear;
+  transition: border-color 250ms linear;
 }
 
 .form__input::-webkit-input-placeholder {
@@ -1573,6 +1564,8 @@ body {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: rgba(157, 164, 189, 0.4);
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 .form__input:-ms-input-placeholder {
@@ -1582,6 +1575,8 @@ body {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: rgba(157, 164, 189, 0.4);
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 .form__input::-ms-input-placeholder {
@@ -1591,6 +1586,8 @@ body {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: rgba(157, 164, 189, 0.4);
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 .form__input::placeholder {
@@ -1600,6 +1597,8 @@ body {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: rgba(157, 164, 189, 0.4);
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 .form__input:focus {
@@ -1690,25 +1689,6 @@ body {
   }
 }
 
-.contacts__container {
-  width: 100%;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-@media screen and (min-width: 480px) {
-  .contacts__container {
-    width: 446px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .contacts__container {
-    width: 720px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .contacts__container {
     width: calc((1200px - 30px) / 2);
@@ -1788,6 +1768,8 @@ body {
   line-height: 1.67;
   letter-spacing: 0.02em;
   color: var(--thirdColor);
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 .address__link:hover, .address__link:focus {

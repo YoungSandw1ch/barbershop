@@ -22,6 +22,7 @@
   padding-top: 52px;
   padding-bottom: 52px;
   color: var(--lightFontColor);
+  transition: color 250ms linear;
 
   &:focus,
   &:hover {

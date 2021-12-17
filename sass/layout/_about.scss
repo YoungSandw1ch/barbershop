@@ -62,17 +62,11 @@
   }
 }
 
-.about__pretitle {
-}
-
 .about__title {
 
   @media screen and (max-width: 767.5px) {
     max-width: 330px;
   }
-}
-
-.about__posttitle {
 }
 
 .about__text {
@@ -85,7 +79,4 @@
   @media screen and (min-width: $desktop) {
     max-width: 480px;
   }
-}
-
-.about__button {
 }

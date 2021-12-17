@@ -10,19 +10,6 @@
 }
 
 .online__container {
-  width: 100%;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-
-  @media screen and (min-width: $mobile) {
-    width: 446px;
-  }
-
-  @media screen and (min-width: $tablet) {
-    width: 720px;
-  }
-
   @media screen and (min-width: $desktop) {
     width: calc((1200px - 30px) / 2);
     padding-left: 56px;
