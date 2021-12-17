@@ -357,6 +357,8 @@ body {
   right: 31px;
   color: var(--firstFontColor);
   background-color: transparent;
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 @media screen and (max-width: 479px) {
@@ -394,6 +396,8 @@ body {
 .mobile-nav__link {
   display: block;
   color: var(--firstFontColor);
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 .mobile-nav__link:focus, .mobile-nav__link:hover {
@@ -417,6 +421,8 @@ body {
   letter-spacing: 0.1em;
   margin-bottom: 24px;
   color: var(--firstFontColor);
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 .mobile-contacts__link:focus, .mobile-contacts__link:hover {
@@ -457,6 +463,8 @@ body {
 
 .mobile-social__link {
   color: var(--firstFontColor);
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
 }
 
 .mobile-social__link:focus, .mobile-social__link:hover {
