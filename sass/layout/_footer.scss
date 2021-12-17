@@ -1,5 +1,17 @@
 .footer {
+
+    @media screen and (min-width: $desktop) {
+    display: flex;
+  }
 }
+
+// .footer__wrapper {
+
+//   @media screen and (min-width: $desktop) {
+//     display: flex;
+//   }
+// }
+
 
 .footer__section {
   background-color: #191C26;
@@ -36,7 +48,13 @@
       background-image: url(../img/footer/footer-desk@2x.png);
     }
   }
+}
 
+.footer__container {
+
+  @media screen and (min-width: $desktop) {
+    width: 500px;
+  }
 }
 
 .footer__title {
@@ -50,14 +68,13 @@
 
 .footer__thumb {
   
-  @media screen and (min-width: $tablet) {
+  @media screen and (min-width: $tablet) and (max-width: 1199.5px) {
     display: flex;
   }
 }
 
-.footer__shedule {
-
-
+.footer__schedule {
+  flex-grow: 1;
 }
 
 .footer__text {

@@ -1,11 +1,23 @@
 
 .footer-contacts {
   
-  &--bottom-indent {
-    margin-bottom: 44px;
+  @media screen and (min-width: $tablet) and (max-width: 1199.5px) {
+    flex-basis: calc((100% - 30px) / 2);
+    margin-right: 30px;
   }
 }
 
+.footer-contacts--bottom-indent {
+
+  @media screen and (max-width: 767.5px) {
+    margin-bottom: 44px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin-bottom:  70px;
+  }
+
+}
 
 .footer-contacts__item {
 
@@ -27,6 +39,12 @@
     color: var(--brandColor);
   }
 
+  &:first-child {
+    @media screen and (min-width: $tablet) {
+      max-width: 250px;
+    }
+  }
+
   &--underline {
     text-decoration: underline;
   }
@@ -35,4 +53,11 @@
 .footer-contacts__icon {
   fill: currentColor;
   margin-right: 16px;
+  flex-shrink: 0;
+
+  &--top {
+    @media screen and (min-width: $tablet) {
+      margin-top: -20px;
+    }
+  }
 }
