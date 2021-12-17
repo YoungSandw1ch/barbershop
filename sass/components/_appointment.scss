@@ -1,4 +1,4 @@
-.contacts {
+.appointment {
   display: none;
 
   @media screen and (min-width: $tablet) and (max-width: 1199.5px) {
@@ -11,7 +11,7 @@
   }
 }
 
-.contacts__link {
+.appointment__link {
   display: block;
   font-size: 12px;
   line-height: 1.333;
@@ -30,7 +30,7 @@
   }
 }
 
-.contacts__button {
+.appointment__button {
 
   @media screen and (min-width: $tablet) and (max-width: 1199.5px) {
     margin-bottom: 20px;

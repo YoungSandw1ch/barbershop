@@ -1,0 +1,8 @@
+.wrapper {
+  background-color: #191C26;
+
+    @media screen and (min-width: $desktop) {
+      display: flex;
+      justify-content: center;
+  }
+}

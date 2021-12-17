@@ -1,85 +1,32 @@
 .footer {
-
-    @media screen and (min-width: $desktop) {
-    display: flex;
-  }
-}
-
-// .footer__wrapper {
-
-//   @media screen and (min-width: $desktop) {
-//     display: flex;
-//   }
-// }
-
-
-.footer__section {
-  background-color: #191C26;
-}
-
-.footer__section:nth-child(2) {
-  background-image: url(../img/footer/footer.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  @media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-    background-image: url(../img/footer/footer@2x.png);
-  }
+  padding: 44px 0;
 
   @media screen and (min-width: $tablet) {
-    background-image: url(../img/footer/footer-tab.png);
-
-    @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-      background-image: url(../img/footer/footer-tab@2x.png);
-    }
-  }
-
-  @media screen and (min-width: $desktop) {
-    background-image: url(../img/footer/footer-desk.png);
-
-    @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-      background-image: url(../img/footer/footer-desk@2x.png);
-    }
+    padding: 56px 0;
   }
 }
 
 .footer__container {
 
-  @media screen and (min-width: $desktop) {
-    width: 500px;
-  }
-}
-
-.footer__title {
-  text-align: center;
-  margin-bottom: 44px;
-
   @media screen and (min-width: $tablet) {
-    text-align: left;
-  }
-}
-
-.footer__thumb {
-  
-  @media screen and (min-width: $tablet) and (max-width: 1199.5px) {
     display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 
-.footer__schedule {
-  flex-grow: 1;
+.footer__copyright {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--thirdColor);
 }
 
-.footer__text {
-  font-size: 18px;
-  line-height: 1.67;
-  letter-spacing: 0.02em;
-  color: var(--thirdColor);
+.footer__media {
+  @media screen and (max-width: 767.5px) {
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
 }

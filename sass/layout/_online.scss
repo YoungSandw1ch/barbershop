@@ -1,0 +1,41 @@
+.online {
+  background-color: #191C26;
+
+  @media screen and (min-width: $desktop) {
+    margin-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+  }
+}
+
+.online__container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media screen and (min-width: $mobile) {
+    width: 446px;
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: 720px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 625px;
+    padding-left: 56px;
+    padding-right: 0;
+    margin: 0;
+  }
+}
+
+.online__title {
+  text-align: center;
+  margin-bottom: 44px;
+
+  @media screen and (min-width: $tablet) {
+    text-align: left;
+  }
+}
